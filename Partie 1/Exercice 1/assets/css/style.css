@@ -1,0 +1,28 @@
+#computerMove {
+  color: darkgrey;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+#win, #loose {
+  color: black;
+  font-size: 30px;
+}
+
+#winRate {
+  font-size: 30px;
+  color: black;
+}
+
+#yourMove {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+}

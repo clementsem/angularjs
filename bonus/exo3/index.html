@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 5</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+<body ng-app="validForm" ng-controller="formCtrl">
+  <form name="form">
+  <p><label>Nom : </label><input type="text" name="name" ng-model="modelName" ng-pattern="nameCheck" />
+    <span class="error" ng-show="form.name.$error.pattern">non</span></p>
+    <p><label>Mail : </label><input type="mail" name="mail" ng-model="modelMail" ng-pattern="mailCheck"/>
+    <span class="error" ng-show="form.mail.$error.pattern">non plus</span></p>
+    <p><label>Sujet : </label><input type="text" name="topic" ng-model="modelText" ng-pattern="topicCheck"/>
+    <span class="error" ng-show="form.topic.$error.pattern">toujours pas</span></p>
+  <p>  <label>Message</label><textarea name="message" id="message" cols="30" rows="10"></textarea></p>
+  <input type="submit" />
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+http://www.nglesson.com/article.php?titre=Comment%20charger%20le%20fichier%20json%20externe%20dans%20Angularjs%201
